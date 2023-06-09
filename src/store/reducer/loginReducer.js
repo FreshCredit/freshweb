@@ -12,7 +12,6 @@ const reducer = (state = initialState, action) => {
       }
     case "SET_LOGIN_INFO":
       const { payload } = action
-      console.log("login payload", payload)
       if (payload.keyName) {
         state[payload.keyName] = payload.value
       }

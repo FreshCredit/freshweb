@@ -15,7 +15,6 @@ const reducer = (state = initialState, action) => {
       }
     case "SET_BANK_INFO":
       const { payload } = action
-      console.log("action", action)
       if (payload.keyName) {
         state[payload.keyName] = payload.value
       }

@@ -3,7 +3,6 @@ import './index.css'
 
 const Input = (props) => {
   const { children, type, name, value, handleChange, wrapperStyle, inputStyle } = props
-  console.log("val", value)
   return (
     <>
       <div style={wrapperStyle}>

@@ -66,8 +66,6 @@ const Home = () => {
 
   const handleLoginInfo = (e) => {
     const { value, name } = e
-    console.log("value", value)
-    console.log("name", name)
     let payload = {
       keyName: name,
       value: value
