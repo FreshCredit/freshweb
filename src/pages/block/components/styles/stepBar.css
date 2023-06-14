@@ -1,0 +1,21 @@
+.page-step-bar {
+  display: flex;
+  width: 65px;
+  align-items: center;
+  gap: 8px;
+}
+
+.step-icon {
+  border-radius: 50px;
+  width: 9px;
+  height: 9px;
+  background: #979C9E;
+  border-radius: 50%;
+}
+
+.selected-step-page {
+  width: 24px;
+  height: 9px;
+  background-color: #303437;
+  border-radius: 50px;
+}

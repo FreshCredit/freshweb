@@ -1,7 +1,10 @@
 :root {
   --bg-color: white;
+  --bg-color-second: #303437;
   --primary: #6269F1;
   --second: #FF6CA5;
+  --third: #12E2A4;
+  --modal-bg-color: rgba(64, 68, 70, 1);
   --text-white: white;
   --text-blue: #6269F1;
   --text-primary: black;
@@ -11,10 +14,13 @@
 
 [data-theme='dark'] {
   --bg-color: white;
+  --bg-color-second: #303437;
   --primary: #6269F1;
+  --second: #FF6CA5;
+  --third: #12E2A4;
+  --modal-bg-color: rgba(64, 68, 70, 1);
   --text-white: white;
   --text-blue: #6269F1;
-  --second: #FF6CA5;
   --text-primary: black;
   --text-second: #090A0A;
   --text-gray: #404446;
@@ -22,7 +28,7 @@
 
 body {
   margin: 0px;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .container {

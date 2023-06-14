@@ -2,7 +2,7 @@ import './index.css'
 
 
 const Input = (props) => {
-  const { children, type, name, value, handleChange, wrapperStyle, inputStyle } = props
+  const { children, type, name, value, handleChange, wrapperStyle, inputStyle, placeholder } = props
   return (
     <>
       <div style={wrapperStyle}>
@@ -11,7 +11,7 @@ const Input = (props) => {
           style={inputStyle}
           type={type}
           name={name}
-          placeholder=""
+          placeholder={placeholder}
           value={value}
           onChange={(e) => handleChange(e.target)}
         />

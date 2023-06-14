@@ -1,7 +1,9 @@
-.login_container{
+.login_container {
   height: 100vh;
+  padding: 30px;
 }
-.login_container .title{
+
+.login_container .title {
   font-family: 'Abril Fatface';
   font-size: 40px;
   list-style: normal;
@@ -9,7 +11,8 @@
   font-weight: 400;
   color: var(--text-primary);
 }
-.login_container .text{
+
+.login_container .text {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 16px;
@@ -19,7 +22,8 @@
   margin-top: 60px;
   text-align: center;
 }
-.login_container .description{
+
+.login_container .description {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -29,6 +33,7 @@
   color: var(--text-blue);
   min-width: 300px;
 }
-.login_container .description .font-bold{
+
+.login_container .description .font-bold {
   font-weight: 700 !important;
 }

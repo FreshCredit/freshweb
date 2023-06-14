@@ -8,6 +8,10 @@
   text-align: right;
 }
 
+.verify_container {
+  padding: 30px;
+}
+
 .verify_container .title {
   margin-top: 39px;
   font-family: 'Poppins';
@@ -28,7 +32,16 @@
   line-height: 24px;
   text-align: center;
   color: var(--text-second);
+}
 
+.verify_container .title {
+  font-family: 'Poppins';
+  font-style: 'Regular';
+  line-height: 12px;
+  color: #72777A;
+  font-size: 12px;
+  margin: 12px;
+  text-align: left;
 }
 
 .verify_container .verify-text {
@@ -131,4 +144,28 @@
 .chip-style {
   margin-top: 30px;
   float: right;
+}
+
+.connect-container {
+  padding: 30px;
+}
+
+.connect-container .connect-title {
+  font-family: 'Poppins';
+  font-style: "SemiBold";
+  line-height: 36px;
+  align-items: left;
+  color: var(--text-primary);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.connect-container .connect-type-title {
+  font-family: 'Poppins';
+  font-style: "SemiBold";
+  line-height: 36px;
+  align-items: left;
+  color: #12E2A4;
+  font-size: 24px;
+  font-weight: 500;
 }

@@ -1,0 +1,105 @@
+.chevron-icon {
+  border-radius: 50%;
+  background: var(--bg-color-second);
+  padding: 10px;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 10px;
+  margin: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.account-add-container {
+  background-color: var(--modal-bg-color);
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  height: calc(100vh - 110px);
+}
+
+.coin-list {
+  position: relative;
+  height: calc(100vh - 340px);
+}
+
+.robinhood-icon {
+  position: absolute;
+  left: 20%;
+  top: 45px;
+}
+
+.coin-icon {
+  position: absolute;
+  right: 20%;
+  top: 70px;
+}
+
+.gusd-icon {
+  position: absolute;
+  top: 160px;
+  left: 5%;
+}
+
+.binance-icon {
+  position: absolute;
+  top: 160px;
+  right: 15%;
+}
+
+.progress-bar {
+  padding-top: 16px;
+}
+
+.step-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--text-white);
+}
+
+.account-credentials-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E3E5E6;
+  margin-top: 15px;
+}
+
+.user-info-input-box {
+  height: calc(100vh - 350px);
+}
+
+.user-info-input-box .label {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--text-white);
+}
+
+.user-info-input-box .login {
+  margin-top: 40px;
+}
+
+.account-connected {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  color: var(--text-white);
+  text-align: center;
+  padding-top: 70px;
+  height: calc(100vh - 250px);
+}

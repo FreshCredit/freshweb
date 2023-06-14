@@ -1,0 +1,11 @@
+.modal {
+  z-index: 1000000;
+}
+
+.modal-display-block {
+  display: block;
+}
+
+.modal-display-none {
+  display: none;
+}

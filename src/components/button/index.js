@@ -19,13 +19,18 @@ const CustomButton = (props) => {
 }
 
 const IconButton = (props) => {
-  const { title, style, onClick, children } = props;
+  const { title, style, onClick, children, direction = "right" } = props;
   return (
     <button className='icon-button' style={style} onClick={onClick}>
+      {
+        direction === "left" && children
+      }
       <span>
         {title}
       </span>
-      {children}
+      {
+        direction === "right" && children
+      }
     </button>
   );
 }

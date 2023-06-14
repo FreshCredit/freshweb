@@ -1,7 +1,9 @@
-.home_container{
+.home_container {
   height: 100vh;
+  padding: 30px;
 }
-.home_container .title{
+
+.home_container .title {
   font-family: 'Abril Fatface';
   font-size: 40px;
   list-style: normal;
@@ -9,7 +11,8 @@
   font-weight: 400;
   color: var(--text-primary);
 }
-.home_container .text{
+
+.home_container .text {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 12px;

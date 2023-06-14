@@ -1,0 +1,197 @@
+.block-wrapper {
+  background-color: var(--bg-color-second);
+  height: 100vh;
+  width: 100%;
+}
+
+.block-id-header {
+  padding-top: 29px;
+  padding-left: 20px;
+  padding-right: 43px;
+  padding-bottom: 15px;
+}
+
+.block-id-header .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-id-header .row .left {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.block-avatar {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.person-info .name-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.person-info .name-row .name-title {
+  font-family: "Poppins";
+  font-style: 'bold';
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--text-white);
+}
+
+.person-info .block-id-title {
+  font-family: "Poppins";
+  font-style: 'medium';
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--second);
+  padding-top: 7px;
+}
+
+.block-id-header .row .right .block-notification {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 2px;
+}
+
+.block-id-header .row .right .block-notification .counter {
+  border-radius: 50%;
+  color: var(--text-white);
+  width: 19px;
+  height: 19px;
+  background-color: var(--second);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+
+.block-container {
+  margin: 10px;
+  padding: 23px;
+  background-color: var(--bg-color);
+  border-radius: 20px;
+}
+
+.block-body {
+  height: calc(100vh - 230px);
+}
+
+.block-container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-container-header .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block-page-name {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: "SemiBold";
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.block-report-title {
+  font-family: "Poppins";
+  font-style: "Medium";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--text-gray);
+}
+
+.report-list .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recently-verified-title {
+  font-family: "Poppins";
+  font-style: "Bold";
+  font-size: 18px;
+  line-height: 18px;
+  color: #202325;
+  font-weight: 600;
+}
+
+.see-title {
+  font-family: "Poppins";
+  font-style: "Bold";
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--text-gray);
+  font-weight: 600;
+  border-bottom: 2px solid var(--text-gray);
+}
+
+.report-list .list {
+  height: 226px;
+  overflow: scroll;
+}
+
+.block-insights-title {
+  font-family: "Poppins";
+  font-style: "Medium";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  background-image: linear-gradient(rgba(85, 56, 238, 1), rgba(255, 108, 165, 1));
+  color: transparent;
+  background-clip: text;
+}
+
+.incoming-finance-container {
+  background: linear-gradient(225deg, #96FFE1 3.26%, #00C48C 100%);
+  border-radius: 10px;
+  padding: 30px 25px 12px 8px;
+  width: 150px;
+}
+
+.outgoing-finance-container {
+  background: linear-gradient(225deg, #FFCBD3 0%, #FF647C 100%);
+  border-radius: 10px;
+  padding: 30px 25px 12px 8px;
+  width: 150px;
+}
+
+.finance-title {
+  font-family: "Poppins";
+  font-style: "normal";
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--text-white);
+  opacity: 0.7;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.finance-amount-title {
+  font-family: "Poppins";
+  font-style: "normal";
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--text-white);
+  font-size: 18px;
+  padding-top: 5px;
+}

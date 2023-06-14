@@ -3,10 +3,12 @@ import thunk from "redux-thunk"
 
 import loginReducer from './reducer/loginReducer'
 import bankReducer from './reducer/bankReuder'
+import blockReducer from './reducer/blockReducer'
 
 const rootReducer = combineReducers({
   loginState: loginReducer,
   bankState: bankReducer,
+  blockState: blockReducer,
 });
 
 const middleware = [thunk];

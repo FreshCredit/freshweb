@@ -1,0 +1,13 @@
+.area-chart {
+  height: 293px;
+}
+
+.apexcharts-legend-series {
+  padding-right: 10px !important;
+}
+
+.apexcharts-legend-text {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
