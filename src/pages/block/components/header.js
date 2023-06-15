@@ -27,7 +27,7 @@ const Header = () => {
   }
   const handleClose = useCallback(() => {
     setNotification(false)
-  }, [])
+  }, [isNotification])
 
   return (
     <>

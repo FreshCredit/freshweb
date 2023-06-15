@@ -169,3 +169,85 @@
   font-size: 24px;
   font-weight: 500;
 }
+
+.connect-content-box {
+  height: calc(100vh - 150px);
+  position: relative;
+}
+
+.financial-list {}
+
+.financial-list img {
+  position: absolute;
+}
+
+.irs-img {
+  left: calc(35.89% - 30px);
+  top: 25%;
+}
+
+.experian-img {
+  right: calc(10.77% - 30px);
+  top: 23%;
+}
+
+.master-card-img {
+  left: calc(11.28% - 30px);
+  top: 35%;
+}
+
+.chime-app-img {
+  right: calc(32.82% - 30px);
+  top: 50%;
+}
+
+.chase-bank-img {
+  left: calc(23.07% - 30px);
+  top: 65%;
+}
+
+.wellsfargo-img {
+  right: calc(18.20% - 30px);
+  top: 75%;
+}
+
+.selected-icon {
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.github-img {
+  right: calc(23.33% - 30px);
+  top: 20%;
+}
+
+.meta-img {
+  left: calc(10.51% - 30px);
+  top: 30%;
+}
+
+.linkedin-img {
+  left: calc(10.51% - 30px);
+  top: 60%;
+}
+
+.twitter-img {
+  right: calc(23.33% - 30px);
+  top: 53%;
+}
+
+.ledger-img {
+  left: calc(20% - 30px);
+  top: 10%;
+}
+
+.dot-img {
+  right: calc(24.10% - 30px);
+  top: 12%;
+}
+
+.robin-img {
+  left: calc(32.05 - 30px);
+  top: 25%;
+}

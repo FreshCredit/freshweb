@@ -37,7 +37,7 @@ const BlockIQSwiper = () => {
       >
         {
           swiperStyles.map((item, index) => (
-            <SwiperSlide style={{ backgroundImage: item.imgUrl }}>
+            <SwiperSlide key={index} style={{ backgroundImage: item.imgUrl }}>
               <div className="swiper-top">Mobile Offers</div>
               <div className="swiper-bottom">
                 <div className="first-text">Top off on Mobile Minutes</div>

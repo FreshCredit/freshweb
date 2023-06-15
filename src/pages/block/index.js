@@ -79,8 +79,7 @@ const Block = () => {
   const handleModalClose = useCallback(
     () => {
       setModal(false)
-
-    }, []
+    }, [isModal]
   )
 
   const previousPage = () => {
