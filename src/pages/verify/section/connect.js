@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { CustomButton } from "../../../components/button";
-import { Children, useState } from "react";
-
+import { useState } from "react";
 
 const connectStyles = {
   background: "#6269F1",
@@ -17,17 +16,30 @@ const connectStyles = {
   width: '100%',
 }
 
+const skipStyles = {
+  background: "transparent",
+  borderRadius: '30px',
+  padding: "15px 30px",
+  fontFamily: 'Poppins',
+  fontStyle: 'normal',
+  fontWeight: '500',
+  fontSize: '16px',
+  lineHeight: '16px',
+  color: "var(--text-gray)",
+  width: '100%',
+  border: 'none',
+  marginTop: '10px'
+}
+
 const Connect = ({ children }) => {
   return (
     <>
-
       <div className="financial-list">
         {children}
       </div>
     </>
   );
 }
-
 
 const VerifyConnect = () => {
   const navigator = useNavigate()
@@ -50,6 +62,7 @@ const VerifyConnect = () => {
       setStepState(4)
       setConnectTitle("Personal")
     }
+
   }
   return (
     <>
@@ -62,7 +75,6 @@ const VerifyConnect = () => {
               <img className="selected-icon" src={item} alt={index} />
             ))
           }
-
           {
             stepState === 1 &&
             <Connect
@@ -101,13 +113,20 @@ const VerifyConnect = () => {
             stepState === 4 &&
             <Connect
               handleConnect={handleConnect}>
-
+              <img className="apple-img" src='/img/apple.png' alt='apple-img' onClick={handleConnect} />
+              <img className="microsoft-img" src='/img/microsoft.png' alt='microsoft-img' onClick={handleConnect} />
+              <img className="googleL-img" src='/img/googleL.png' alt='googleL-img' onClick={handleConnect} />
+              <img className="android-img" src='/img/android.png' alt='android-img' onClick={handleConnect} />
             </Connect>
           }
         </div>
         <CustomButton
           title="Connect"
           style={connectStyles}
+        />
+        <CustomButton
+          title="Skip for now"
+          style={skipStyles}
         />
       </div>
     </>

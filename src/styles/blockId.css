@@ -195,3 +195,9 @@
   font-size: 18px;
   padding-top: 5px;
 }
+
+.pie-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

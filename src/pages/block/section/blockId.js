@@ -1,3 +1,4 @@
+import PieChart from '../components/pieChart';
 import Report from '../components/report';
 import StepBar from '../components/stepBar'
 
@@ -54,7 +55,9 @@ const BlockID = () => {
             <StepBar />
           </div>
         </div>
-        <div className='chat'>chat</div>
+        <div className='pie-chat'>
+          <PieChart />
+        </div>
         <div className='report-list'>
           <div className='row pb-30'>
             <div className='recently-verified-title'>Recently Verified</div>
