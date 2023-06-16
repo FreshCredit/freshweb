@@ -14,13 +14,16 @@ const RouterControl = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home switchTheme={switchTheme} />} />
+          <Route path="/home" element={<Home switchTheme={switchTheme} />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/verify" element={<VerifyPage />} />
           <Route path="/verify/confirming" element={<ConfirmCountry />} />
           <Route path="/verify/bank" element={<BankVerify />} />
           <Route path="/verify/connect" element={<VerifyConnect />} />
           <Route path="/block" element={<Block />} />
+
+          {/* tom design */}
+          {/* <Route path="/" element={< />} */}
         </Routes>
       </BrowserRouter>
     </>

@@ -46,6 +46,11 @@ const VerifyConnect = () => {
   const [selectList, setSelectList] = useState([])
   const [connectTitle, setConnectTitle] = useState("Financal")
   const [stepState, setStepState] = useState(1)
+
+  const handleNextPage = () => {
+    navigator('/block')
+  }
+
   const handleConnect = (e) => {
     let temp = selectList;
     temp.push(e.target.getAttribute('src'))
@@ -123,6 +128,7 @@ const VerifyConnect = () => {
         <CustomButton
           title="Connect"
           style={connectStyles}
+          onClick={handleNextPage}
         />
         <CustomButton
           title="Skip for now"
